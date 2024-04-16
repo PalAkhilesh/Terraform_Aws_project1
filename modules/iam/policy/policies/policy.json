@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "OrderProcessing",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:CreateTable",
+                "dynamodb:PutItem",
+                "dynamodb:DeleteItem",
+                "logs:*",
+                "dynamodb:GetItem",
+                "dynamodb:UpdateItem",
+                "sqs:*",
+                "lambda:*",
+                "apigateway:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
