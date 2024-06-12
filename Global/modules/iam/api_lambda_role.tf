@@ -8,7 +8,7 @@ module "policy" {
 module "role" {
   source      = "../../../Modules/iam/role"
   role_name   = var.role_name
-  assume_role = data.aws_iam_policy_document.HTC_POC_OP_618579_ASSUME_ROLE.json
+  assume_role = data.aws_iam_policy_document.OM_USECASE_ASSUME_ROLE.json
 }
 
 module "attach_policy" {

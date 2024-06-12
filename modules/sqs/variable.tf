@@ -1,9 +1,9 @@
-variable "HTC_POC_OP_618579_APIGateway_Execution_ARN" {}
-variable "HTC_POC_OP_618579_QueueSQS_Name" {}
-variable "HTC_POC_OP_618579_QueueSQS_DelaySeconds" {}
-variable "HTC_POC_OP_618579_QueueSQS_MaxMessageSize" {}
-variable "HTC_POC_OP_618579_QueueSQS_MessageRetentionSeconds" {}
-variable "HTC_POC_OP_618579_QueueSQS_VisisbilityTimeoutSeconds" {}
-variable "HTC_POC_OP_618579_QueueSQS_ReceiveWaitTimeSeconds" {}
-variable "HTC_POC_OP_618579_QueueSQS_ARN" {}
+variable "OM_USECASE_APIGateway_Execution_ARN" {}
+variable "OM_USECASE_QueueSQS_Name" {}
+variable "OM_USECASE_QueueSQS_DelaySeconds" {}
+variable "OM_USECASE_QueueSQS_MaxMessageSize" {}
+variable "OM_USECASE_QueueSQS_MessageRetentionSeconds" {}
+variable "OM_USECASE_QueueSQS_VisisbilityTimeoutSeconds" {}
+variable "OM_USECASE_QueueSQS_ReceiveWaitTimeSeconds" {}
+variable "OM_USECASE_QueueSQS_ARN" {}
 variable "common_tags" {}

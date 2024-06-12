@@ -16,8 +16,8 @@ def lambda_handler(event, context):
                 {
                     "Action": "execute-api:Invoke",
                     "Resource": [
-                        "arn:aws:execute-api:us-east-1:631328934344:*/*/*",
-                        "arn:aws:execute-api:us-west-1:631328934344:*/*/*"
+                        "arn:aws:execute-api:us-east-1:your_aws_id:*/*/*",
+                        "arn:aws:execute-api:us-west-1:your_aws_id:*/*/*"
                     ],
                     "Effect": auth
                 }
